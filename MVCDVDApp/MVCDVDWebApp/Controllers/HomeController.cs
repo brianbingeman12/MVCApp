@@ -15,7 +15,7 @@ namespace WebApplication1.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "This is a DVD Application";
 
             return View();
         }
@@ -24,6 +24,11 @@ namespace WebApplication1.Controllers
         {
             ViewBag.Message = "Your contact page.";
 
+            return View();
+        }
+
+        public ActionResult Edit()
+        {
             return View();
         }
     }
